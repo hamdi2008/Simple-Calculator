@@ -9,6 +9,7 @@
 body {
   background-color: #ddd;
   background-image: url(img/cesar-couto-TIvFLeqZ4ec-unsplash.jpg);
+  background-size: cover;
   color: #fff;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
