@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ddd;
+  background-image: url(img/cesar-couto-TIvFLeqZ4ec-unsplash.jpg);
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 3em;
+}
+
+button{
+    background-color: #222;
+    padding: 1em 3em; 
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    width: 200px;
+    padding: .625em 0;
+    border-radius: 100vw;
+    margin: .5em auto;
+}
+.numbers{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1em;
+}
+.sum{
+    margin-top: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
